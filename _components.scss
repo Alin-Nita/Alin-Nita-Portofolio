@@ -1,0 +1,57 @@
+#logo {
+  color: white;
+  background-color: darkcyan;
+  margin-left: 15px;
+  width: 48px;
+  height: 33px;
+  border: 2px solid black;
+}
+
+
+#nav {
+  font-size: larger;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Share Tech Mono', monospace;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 80px;
+  margin-top: 25px;
+}
+
+a {
+  color: darkcyan;
+  text-decoration: none;
+}
+
+a:hover {
+  border-color: yellow;
+  color: white;
+  box-shadow: 0 0.5em 0.5em -0.4em yellow;
+  transform: translateY(-0.5em);
+  cursor: pointer;
+}
+
+.the_stack {
+  margin-inline: auto;
+  background-color: darkcyan;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 270px;
+  height: 320px;
+  display: flex;
+}
+
+.the_stack>ul {
+
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: flex-start;
+}

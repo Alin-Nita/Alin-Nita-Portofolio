@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(./assets/meduze-verzi.jpeg);
+  filter: opacity(0.9);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_container {
+  box-sizing: border-box;
+  width: 85vmax;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
+  margin-top: 70px;
+  max-width: 1300px;
+}
+
+
+.main_container>* {
+  color: white;
+}
+
+.left_half {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #434343;
+  width: 50%;
+  height: 100%;
+}
+
+.right_half {
+  background-image: url("./assets/imagine-meduze.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  flex-wrap: nowrap
+}
+
+.left_footer {
+  text-align: center;
+}

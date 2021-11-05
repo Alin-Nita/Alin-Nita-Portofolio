@@ -1,0 +1,177 @@
+#logo {
+  color: white;
+  background-color: darkcyan;
+  margin-left: 15px;
+  width: 48px;
+  height: 33px;
+  border: 2px solid black;
+}
+
+#nav {
+  font-size: larger;
+  font-family: "Roboto", sans-serif;
+  font-family: "Share Tech Mono", monospace;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 80px;
+  margin-top: 25px;
+}
+
+a {
+  color: darkcyan;
+  text-decoration: none;
+}
+
+a:hover {
+  border-color: yellow;
+  color: white;
+  box-shadow: 0 0.5em 0.5em -0.4em yellow;
+  transform: translateY(-0.5em);
+  cursor: pointer;
+}
+
+.the_stack {
+  margin-inline: auto;
+  background-color: darkcyan;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 270px;
+  height: 320px;
+  display: flex;
+}
+
+.the_stack > ul {
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(./assets/meduze-verzi.jpeg);
+  filter: opacity(0.9);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_container {
+  box-sizing: border-box;
+  width: 85vmax;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
+  margin-top: 70px;
+  max-width: 1300px;
+}
+
+.main_container > * {
+  color: white;
+}
+
+.left_half {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #434343;
+  width: 50%;
+  height: 100%;
+}
+
+.right_half {
+  background-image: url("./assets/imagine-meduze.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.left_footer {
+  text-align: center;
+}
+
+.left_footer {
+  margin-bottom: 30px;
+}
+
+.left_footer > h3 {
+  font-weight: lighter;
+  font-size: x-large;
+  color: #66DBEA;
+  font-family: "Roboto", sans-serif;
+  font-family: "Share Tech Mono", monospace;
+}
+
+p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.name {
+  margin-right: 430px;
+  margin-top: 380px;
+}
+
+.name > h3 {
+  font-size: x-large;
+  font-weight: lighter;
+  font-family: "Roboto", sans-serif;
+  font-family: "Share Tech Mono", monospace;
+  color: darkcyan;
+}
+
+.name > h1 {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-variant: small-caps;
+  font-family: "Roboto", sans-serif;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.the_stack > ul > li {
+  font-size: larger;
+  font-family: "Roboto", sans-serif;
+  font-family: "Share Tech Mono", monospace;
+  list-style: none;
+  text-decoration: none;
+  border-bottom: 1px solid #66DBEA;
+}
+
+.the_stack > ul > li:hover {
+  border-color: yellow;
+  color: white;
+  box-shadow: 0 0.5em 0.5em -0.4em yellow;
+  transform: translateY(-0.5em);
+  cursor: pointer;
+}
+
+span {
+  background-color: darkcyan;
+}
+
+.right_footer {
+  margin-left: 370px;
+}
